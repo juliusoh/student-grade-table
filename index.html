@@ -7,9 +7,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-<header>
-  <h1>Student Grade Table</h1>
-</header>
+<div class="container">
+  <div class="row">
+    <div class="col-9">
+      <h1>Student Grade Table</h1>
+    </div>
+  <div class="col-2">
+      <h2>Average Grade <span class="badge"></span></h2>
+  </div>
+</div>
+</div>
 <table class="table table-bordered table-dark">
   <thead>
     <tr>
@@ -37,7 +44,7 @@
   </tbody>
 </table>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-
+<script src="./components/page-header.js"></script>
 <script src="./components/app.js"></script>
 <script src="./components/grade-table.js"></script>
 <script src='main.js'></script>
