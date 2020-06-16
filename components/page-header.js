@@ -1,9 +1,13 @@
 class PageHeader {
   constructor (headerElement) {
     this.headerElement = headerElement;
+    console.log(this.headerElement);
   }
 
   updateAverage(newAverage) {
-    console.log(newAverage);
+   var badge = this.headerElement.querySelector('.badge');
+   console.log(badge);
+   badge.textContent = newAverage;
+  
   }
 }
