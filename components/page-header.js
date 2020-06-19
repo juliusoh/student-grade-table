@@ -5,7 +5,7 @@ class PageHeader {
   }
 
   updateAverage(newAverage) {
-   var badge = this.headerElement.querySelector('.badge');
+   const badge = this.headerElement.querySelector('.badge');
    
    badge.textContent = newAverage;
   
